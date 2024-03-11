@@ -6,7 +6,13 @@ O curso tem como objetivo apresentar os conceitos de Autoload, publicação de u
 
 ## 🔧 Inicialização
 
-Para rodar o script, basta colar o seguinte comando no terminal do diretório do projeto:
+Primeiramente, execute o seguinte comando no terminal da raíz do projeto:
+
+```
+composer install
+```
+
+Agora, para rodar o script, basta executar o seguinte comando no terminal da raíz do projeto:
 
 ```
 composer run finder

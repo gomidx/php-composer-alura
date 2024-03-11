@@ -1,0 +1,29 @@
+{
+    "name": "gomidx/courses-finder",
+    "description": "Projeto que busca os cursos de PHP da Alura.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "gomidx",
+            "email": "lucaspavao2002@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "symfony/dom-crawler": "^6.0",
+        "symfony/css-selector": "^7.0"
+    },
+    "autoload": {
+        "files": [
+            "Helpers.php"
+        ],
+        "psr-4": {
+            "Alura\\CoursesFinder\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0",
+        "squizlabs/php_codesniffer": "^3.9",
+        "phan/phan": "^5.4"
+    }
+}

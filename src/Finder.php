@@ -7,8 +7,8 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class Finder
 {
-    private $client;
-    private $crawler;
+    private ClientInterface $client;
+    private Crawler $crawler;
 
     public function __construct(ClientInterface $client, Crawler $crawler)
     {

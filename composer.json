@@ -28,5 +28,6 @@
     },
     "scripts": {
         "run-finder": "php courses-finder.php"
-    }
+    },
+    "license": "GPL-3.0"
 }
